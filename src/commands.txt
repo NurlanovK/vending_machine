@@ -1,3 +1,17 @@
 git init
+git checkout -b home_work25
 git status
-git add src/
+git add src/Payment Processor.java
+git commit -m "Added PaymentProcessor interface"
+git add src/CardAcceptor.java
+git commit -m "Added CardAcceptor class"
+git add src/CoinAcceptor.java
+git commit -m "Changed CoinAcceptor class"
+git add src/AppRunner.java
+git commit -m "Changed AppRunner class"
+git status
+git add src/commands.txt
+git commit -m "Added commands.txt"
+git checkout master
+git merge home_work25
+git push origin master
